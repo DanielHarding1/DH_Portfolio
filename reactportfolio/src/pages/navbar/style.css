@@ -1,0 +1,8 @@
+.navbar-nav {
+  top: 0;
+  position: absolute;
+  width: 100%;
+  justify-content: space-evenly;
+  padding-top: 10px;
+  background-color: ##fff8dc;
+}
