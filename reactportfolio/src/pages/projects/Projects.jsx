@@ -1,7 +1,33 @@
-const Projects = () => {
+import React from "react";
+import "./style.css";
+import data from "../data/projectdata.json";
+
+// id, projectName, title, body, link, img
+const Projects = (props) => {
+  const projectsRef = React.useRef();
+  const projects = data.data || [];
+
   return (
     <div>
-      <h1>This is the first project</h1>
+      <h2 className="projectstitle">Projects</h2>
+      <div className="container" ref={{ projectsRef }}>
+        {projects.map((P) => (
+          <div className="card" key={P.id}>
+            <div className="card-body">
+              <h5 className="card-title" {...P.projectName}></h5>
+              <h6
+                className="card-subtitle mb-2 text-muted"
+                {...P.projectName}
+              ></h6>
+              <h5 className="card-title">{...P.title}</h5>
+              <p className="card-title">{...P.body}</p>
+              <a useRef={P.link} className="card-link">
+                Link
+              </a>
+            </div>
+          </div>
+        ))}
+      </div>
     </div>
   );
 };

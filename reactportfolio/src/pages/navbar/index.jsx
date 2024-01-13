@@ -58,15 +58,9 @@ function Navbar() {
                 </NavLink>
               </li>
               <li className=".navbar-nav nav-item dropdown">
-                <a
-                  className="projects nav-link dropdown-toggle"
-                  href="#"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
+                <li className="nav-item">
                   <NavLink
-                    to="/contact"
+                    to="/projects"
                     end
                     className={({ isActive }) =>
                       isActive ? "nav-link active" : "nav-link"
@@ -74,76 +68,7 @@ function Navbar() {
                   >
                     Projects
                   </NavLink>
-                </a>
-
-                <ul className="dropdown-menu">
-                  <li>
-                    <NavLink
-                      to="/"
-                      end
-                      className={({ isActive }) =>
-                        isActive ? "nav-link active" : "nav-link"
-                      }
-                    >
-                      Project 1
-                    </NavLink>
-                  </li>
-                  <li>
-                    <NavLink
-                      to="/"
-                      end
-                      className={({ isActive }) =>
-                        isActive ? "nav-link active" : "nav-link"
-                      }
-                    >
-                      Project 2
-                    </NavLink>
-                  </li>
-                  <li>
-                    <NavLink
-                      to="/"
-                      end
-                      className={({ isActive }) =>
-                        isActive ? "nav-link active" : "nav-link"
-                      }
-                    >
-                      Project 2
-                    </NavLink>
-                  </li>
-                  <li>
-                    <NavLink
-                      to="/"
-                      end
-                      className={({ isActive }) =>
-                        isActive ? "nav-link active" : "nav-link"
-                      }
-                    >
-                      Project 2
-                    </NavLink>
-                  </li>
-                  <li>
-                    <NavLink
-                      to="/"
-                      end
-                      className={({ isActive }) =>
-                        isActive ? "nav-link active" : "nav-link"
-                      }
-                    >
-                      Project 2
-                    </NavLink>
-                  </li>
-                  <li>
-                    <NavLink
-                      to="/"
-                      end
-                      className={({ isActive }) =>
-                        isActive ? "nav-link active" : "nav-link"
-                      }
-                    >
-                      Project 2
-                    </NavLink>
-                  </li>
-                </ul>
+                </li>
               </li>
             </ul>
           </div>

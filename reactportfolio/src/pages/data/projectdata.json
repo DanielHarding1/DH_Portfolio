@@ -1,0 +1,58 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "projectName": "Weather App",
+      "title": "Weather Application",
+      "body": "This project implimented API calls in order to display changing weather conditon over the text 5 days. Furthermore ive used JQuery to code the Javascript for this project",
+      "link": "https://danielharding1.github.io/Weather_API/",
+      "img": ""
+    },
+
+    {
+      "id": 2,
+      "projectName": "Team Profile Generator - NodeJS",
+      "title": "IRCClient",
+      "body": "An irc client that works over local host created as a project at Purdue University in cs24000 - Programming in C",
+      "link": "https://github.com/DanielHarding1/Team_Profile_Generator",
+      "img": ""
+    },
+
+    {
+      "id": 3,
+      "projectName": "Node_README_Generator",
+
+      "title": "IRCServer",
+      "body": "An irc server that works over local host created as a project at Purdue University in cs24000 - Programming in C",
+      "link": "https://github.com/DanielHarding1/Node_README",
+      "img": ""
+    },
+
+    {
+      "id": 4,
+      "projectName": "Daily Planner",
+      "title": "Jeffervescence",
+      "body": "A website made during Xtern bootcamp session 2 that lists Jeff Goldblum movies, release year, and allows the user to favorite movies, reorder, delete, and clear the list",
+      "link": "https://danielharding1.github.io/Daily_Planner/",
+      "img": ""
+    },
+
+    {
+      "id": 5,
+      "projectName": "Cocktail Bar - Team Project",
+      "title": "Password Generator",
+      "body": "A password generator that takes user customizations and generates a fully-random or a pseudo-random password",
+      "link": " https://danielharding1.github.io/Whats_Near_You/",
+      "img": ""
+    },
+
+    {
+      "id": 6,
+      "projectName": "API-Party",
+      "title": "API-Party",
+      "body": "Implemented functionality using the Pokéapi v1, worked on as part of Xtern-Bootcamp 2017 session 2",
+      "link": "https://github.com/aoppenh/api-party",
+      "img": ""
+    }
+  ]
+}
