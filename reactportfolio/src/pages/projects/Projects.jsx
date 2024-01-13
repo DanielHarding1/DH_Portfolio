@@ -21,10 +21,16 @@ const Projects = (props) => {
               ></h6>
               <h5 className="card-title">{...P.title}</h5>
               <p className="card-title">{...P.body}</p>
-              <a useRef={P.link} className="card-link">
+              <a
+                href={P.link}
+                className="card-link"
+                target="blank"
+                rel="noopner noreferrer"
+              >
                 Link
               </a>
             </div>
+            <img src={P.img} className="card-img" />
           </div>
         ))}
       </div>

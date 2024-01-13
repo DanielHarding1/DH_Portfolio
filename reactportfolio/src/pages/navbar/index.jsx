@@ -8,7 +8,7 @@ function Navbar() {
     <div className="navbar-nav">
       <nav className="navbar navbar-expand-lg bg-body-tertiary">
         <div className="container-fluid">
-          <a className="navbar-brand" href="#">
+          <a className="navbar-brand" href="/home">
             Daniel H.
           </a>
           <button
@@ -35,17 +35,7 @@ function Navbar() {
                   Home
                 </NavLink>
               </li>
-              <li className="nav-item">
-                <NavLink
-                  to="/about"
-                  end
-                  className={({ isActive }) =>
-                    isActive ? "nav-link active" : "nav-link"
-                  }
-                >
-                  About
-                </NavLink>
-              </li>
+
               <li className="nav-item">
                 <NavLink
                   to="/contact"

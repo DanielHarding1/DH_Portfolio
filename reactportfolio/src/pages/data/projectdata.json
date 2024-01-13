@@ -4,7 +4,7 @@
       "id": 1,
       "projectName": "Weather App",
       "title": "Weather Application",
-      "body": "This project implimented API calls in order to display changing weather conditon over the text 5 days. Furthermore ive used JQuery to code the Javascript for this project",
+      "body": "This project implimented API calls in order to display changing weather conditon over the text 5 days. Furthermore ive used JQuery to code the Javascript for this project.",
       "link": "https://danielharding1.github.io/Weather_API/",
       "img": ""
     },
@@ -12,18 +12,17 @@
     {
       "id": 2,
       "projectName": "Team Profile Generator - NodeJS",
-      "title": "IRCClient",
-      "body": "An irc client that works over local host created as a project at Purdue University in cs24000 - Programming in C",
+      "title": "Team Profile Generator - NodeJS",
+      "body": "Using backend npm packages such as Inquirer, I created a question and response program that allows the user in input data and a HTML page in loaded from responses given.",
       "link": "https://github.com/DanielHarding1/Team_Profile_Generator",
       "img": ""
     },
 
     {
       "id": 3,
-      "projectName": "Node_README_Generator",
-
-      "title": "IRCServer",
-      "body": "An irc server that works over local host created as a project at Purdue University in cs24000 - Programming in C",
+      "projectName": "Node_README_Generator - NodeJS",
+      "title": "Node_README_Generator - NodeJS",
+      "body": "Using further backend technologies, this application creates a markdown file, a README, for any project. Rendering a Table of Contents at the top.",
       "link": "https://github.com/DanielHarding1/Node_README",
       "img": ""
     },
@@ -31,8 +30,8 @@
     {
       "id": 4,
       "projectName": "Daily Planner",
-      "title": "Jeffervescence",
-      "body": "A website made during Xtern bootcamp session 2 that lists Jeff Goldblum movies, release year, and allows the user to favorite movies, reorder, delete, and clear the list",
+      "title": "Daily Planner",
+      "body": "Using DaysJS, this application updates dependant on the time of useage to allow the user to plan their day hour-by-hour, while not allowing the user to add plans for time gone by",
       "link": "https://danielharding1.github.io/Daily_Planner/",
       "img": ""
     },
@@ -40,8 +39,8 @@
     {
       "id": 5,
       "projectName": "Cocktail Bar - Team Project",
-      "title": "Password Generator",
-      "body": "A password generator that takes user customizations and generates a fully-random or a pseudo-random password",
+      "title": "Cocktail Bar - Team Project",
+      "body": "This application carried out as a team project over two weeks. I was personally responsible for the Javascript functionality of the Map API - which works as intended",
       "link": " https://danielharding1.github.io/Whats_Near_You/",
       "img": ""
     },
@@ -49,9 +48,9 @@
     {
       "id": 6,
       "projectName": "API-Party",
-      "title": "API-Party",
-      "body": "Implemented functionality using the Pokéapi v1, worked on as part of Xtern-Bootcamp 2017 session 2",
-      "link": "https://github.com/aoppenh/api-party",
+      "title": "Quiz Application",
+      "body": "A Quiz application that gives the user a select amount of time to answer certain questions, deducting time if the question is answered incorrectly",
+      "link": "https://danielharding1.github.io/Quiz_Me/",
       "img": ""
     }
   ]

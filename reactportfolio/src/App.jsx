@@ -9,7 +9,6 @@ import Contact from "./pages/contact/Contact";
 import Projects from "./pages/projects/Projects";
 import Footer from "./pages/Footer";
 import Header from "./pages/header/Header";
-import Gallery from "./pages/gallery/Gallery";
 
 function App() {
   return (
@@ -20,7 +19,6 @@ function App() {
         <Wrapper>
           <Routes>
             <Route path="/home" element={<Home />} />
-            <Route path="/gallery" element={<Gallery />} />
             <Route path="/projects" element={<Projects />} />
             <Route path="/contact" element={<Contact />} />
           </Routes>
